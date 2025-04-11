@@ -2,14 +2,11 @@ package testBase;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -24,7 +21,7 @@ public class BaseTest{
 
     @BeforeClass
     @Parameters({"os","browser"})
-    public void setup(String os, String browser) throws IOException, InterruptedException {
+    public void setup(String os, String browser) throws IOException{
 
         logger = LogManager.getLogger(this.getClass());
         FileReader fileReader = new FileReader("./src/test/resources/config.properties");

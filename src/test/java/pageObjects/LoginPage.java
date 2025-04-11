@@ -38,8 +38,9 @@ public class LoginPage extends Base{
     }
 
     public void clickOnLoginButton() throws InterruptedException {
+
         loginButton.click();
-        Thread.sleep(3000);
+
     }
 
 }

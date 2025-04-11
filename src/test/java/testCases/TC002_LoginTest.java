@@ -1,6 +1,6 @@
 package testCases;
 
-import com.aventstack.extentreports.reporter.configuration.Theme;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -35,10 +35,10 @@ public class TC002_LoginTest extends BaseTest {
             logger.info("Login button is clicked");
 
             MyAccountPage myAccountPage = new MyAccountPage(driver);
-            myAccountPage.clickOnMyAccount();
-            boolean logoutText = myAccountPage.getLogoutText();
 
-            if(logoutText){
+            boolean myAccountVisible = myAccountPage.isMyAccountVisible();
+
+            if(myAccountVisible){
                 Assert.assertTrue(true);
             }
             else {

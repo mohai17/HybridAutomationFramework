@@ -1,0 +1,58 @@
+2025-04-11 22:28:04.398 [main] INFO  testCases.TC003_LoginDDT - Click on Login Button
+2025-04-11 22:28:04.471 [main] INFO  testCases.TC003_LoginDDT - Login Button is clicked
+2025-04-11 22:28:04.864 [main] INFO  testCases.TC003_LoginDDT - Click on Logout
+2025-04-11 22:28:05.175 [main] INFO  testCases.TC003_LoginDDT - Logout button is clicked
+2025-04-11 22:28:05.176 [main] INFO  testCases.TC003_LoginDDT - Click on Continue
+2025-04-11 22:28:05.476 [main] INFO  testCases.TC003_LoginDDT - Continue button is clicked
+2025-04-11 22:28:05.478 [main] INFO  testCases.TC003_LoginDDT - *** TCOO3_LoginDDT is finished ***
+2025-04-11 22:28:05.482 [main] INFO  testCases.TC003_LoginDDT - *** TC003_LoginDDT is started ***
+2025-04-11 22:28:05.483 [main] INFO  testCases.TC003_LoginDDT - Click on MyAccount
+2025-04-11 22:28:05.544 [main] INFO  testCases.TC003_LoginDDT - My Account is clicked
+2025-04-11 22:28:05.544 [main] INFO  testCases.TC003_LoginDDT - Click on Login Link
+2025-04-11 22:28:05.805 [main] INFO  testCases.TC003_LoginDDT - Login link is clicked
+2025-04-11 22:28:05.811 [main] INFO  testCases.TC003_LoginDDT - Providing Email
+2025-04-11 22:28:05.923 [main] INFO  testCases.TC003_LoginDDT - Email is provided.
+2025-04-11 22:28:05.924 [main] INFO  testCases.TC003_LoginDDT - Providing Password
+2025-04-11 22:28:06.016 [main] INFO  testCases.TC003_LoginDDT - Password is provided
+2025-04-11 22:28:06.017 [main] INFO  testCases.TC003_LoginDDT - Click on Login Button
+2025-04-11 22:28:06.079 [main] INFO  testCases.TC003_LoginDDT - Login Button is clicked
+2025-04-11 22:28:06.505 [main] INFO  testCases.TC003_LoginDDT - Click on Logout
+2025-04-11 22:28:06.828 [main] INFO  testCases.TC003_LoginDDT - Logout button is clicked
+2025-04-11 22:28:06.828 [main] INFO  testCases.TC003_LoginDDT - Click on Continue
+2025-04-11 22:28:07.110 [main] INFO  testCases.TC003_LoginDDT - Continue button is clicked
+2025-04-11 22:28:07.111 [main] INFO  testCases.TC003_LoginDDT - *** TCOO3_LoginDDT is finished ***
+2025-04-11 22:28:07.112 [main] INFO  testCases.TC003_LoginDDT - *** TC003_LoginDDT is started ***
+2025-04-11 22:28:07.114 [main] INFO  testCases.TC003_LoginDDT - Click on MyAccount
+2025-04-11 22:28:07.177 [main] INFO  testCases.TC003_LoginDDT - My Account is clicked
+2025-04-11 22:28:07.178 [main] INFO  testCases.TC003_LoginDDT - Click on Login Link
+2025-04-11 22:28:07.459 [main] INFO  testCases.TC003_LoginDDT - Login link is clicked
+2025-04-11 22:28:07.472 [main] INFO  testCases.TC003_LoginDDT - Providing Email
+2025-04-11 22:28:07.585 [main] INFO  testCases.TC003_LoginDDT - Email is provided.
+2025-04-11 22:28:07.586 [main] INFO  testCases.TC003_LoginDDT - Providing Password
+2025-04-11 22:28:07.672 [main] INFO  testCases.TC003_LoginDDT - Password is provided
+2025-04-11 22:28:07.672 [main] INFO  testCases.TC003_LoginDDT - Click on Login Button
+2025-04-11 22:28:07.737 [main] INFO  testCases.TC003_LoginDDT - Login Button is clicked
+2025-04-11 22:28:08.133 [main] INFO  testCases.TC003_LoginDDT - Click on Logout
+2025-04-11 22:28:08.454 [main] INFO  testCases.TC003_LoginDDT - Logout button is clicked
+2025-04-11 22:28:08.455 [main] INFO  testCases.TC003_LoginDDT - Click on Continue
+2025-04-11 22:28:08.712 [main] INFO  testCases.TC003_LoginDDT - Continue button is clicked
+2025-04-11 22:28:08.713 [main] INFO  testCases.TC003_LoginDDT - *** TCOO3_LoginDDT is finished ***
+2025-04-11 22:28:08.715 [main] INFO  testCases.TC003_LoginDDT - *** TC003_LoginDDT is started ***
+2025-04-11 22:28:08.716 [main] INFO  testCases.TC003_LoginDDT - Click on MyAccount
+2025-04-11 22:28:08.773 [main] INFO  testCases.TC003_LoginDDT - My Account is clicked
+2025-04-11 22:28:08.773 [main] INFO  testCases.TC003_LoginDDT - Click on Login Link
+2025-04-11 22:28:09.036 [main] INFO  testCases.TC003_LoginDDT - Login link is clicked
+2025-04-11 22:28:09.044 [main] INFO  testCases.TC003_LoginDDT - Providing Email
+2025-04-11 22:28:09.165 [main] INFO  testCases.TC003_LoginDDT - Email is provided.
+2025-04-11 22:28:09.166 [main] INFO  testCases.TC003_LoginDDT - Providing Password
+2025-04-11 22:28:09.256 [main] INFO  testCases.TC003_LoginDDT - Password is provided
+2025-04-11 22:28:09.256 [main] INFO  testCases.TC003_LoginDDT - Click on Login Button
+2025-04-11 22:28:09.321 [main] INFO  testCases.TC003_LoginDDT - Login Button is clicked
+2025-04-11 22:28:19.329 [main] INFO  testCases.TC003_LoginDDT - *** TCOO3_LoginDDT is finished ***
+2025-04-11 22:28:19.340 [main] INFO  testCases.TC003_LoginDDT - *** TC003_LoginDDT is started ***
+2025-04-11 22:28:19.340 [main] INFO  testCases.TC003_LoginDDT - Click on MyAccount
+2025-04-11 22:28:19.420 [main] INFO  testCases.TC003_LoginDDT - My Account is clicked
+2025-04-11 22:28:19.421 [main] INFO  testCases.TC003_LoginDDT - Click on Login Link
+2025-04-11 22:28:19.735 [main] INFO  testCases.TC003_LoginDDT - Login link is clicked
+2025-04-11 22:28:19.742 [main] INFO  testCases.TC003_LoginDDT - Providing Email
+2025-04-11 22:28:19.838 [main] INFO  testCases.TC003_LoginDDT - Email is provided.

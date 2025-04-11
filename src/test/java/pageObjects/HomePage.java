@@ -31,7 +31,7 @@ public class HomePage extends Base{
         register.click();
     }
 
-    public void clickOnLoginLink(){
+    public void clickOnLoginLink() throws InterruptedException {
 
         login.click();
     }

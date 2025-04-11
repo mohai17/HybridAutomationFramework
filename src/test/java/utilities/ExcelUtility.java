@@ -10,21 +10,21 @@ import java.io.IOException;
 
 public class ExcelUtility {
 
-    public static FileInputStream fi;
-    public static FileOutputStream fo;
-    public static XSSFWorkbook workbook;
-    public static XSSFSheet sheet;
-    public static XSSFCell cell;
-    public static XSSFCellStyle cellStyle;
-    public static String filePath;
-    public static String sheetName;
+    public FileInputStream fi;
+    public FileOutputStream fo;
+    public XSSFWorkbook workbook;
+    public XSSFSheet sheet;
+    public XSSFCell cell;
+    public XSSFCellStyle cellStyle;
+    public String filePath;
 
-    public ExcelUtility(String path, String name){
+
+    public ExcelUtility(String path){
         filePath = path;
-        sheetName = name;
+
     }
 
-    public static int getNumberOfRow() throws IOException {
+    public int getNumberOfRow(String sheetName) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -37,21 +37,21 @@ public class ExcelUtility {
         return rowCount;
     }
 
-    public static int getNumberOfCell() throws IOException {
+    public int getNumberOfCell(String sheetName, int rowNumber) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
         sheet = workbook.getSheet(sheetName);
 
-        int cellCount = sheet.getRow(1).getLastCellNum();
+        int cellCount = sheet.getRow(rowNumber).getLastCellNum();
 
         workbook.close();
         fi.close();
 
-        return cellCount-1;
+        return cellCount;
     }
 
-    public static String getCellData(int rowNumber, int cellNumber) throws IOException {
+    public String getCellData(String sheetName, int rowNumber, int cellNumber) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -72,7 +72,7 @@ public class ExcelUtility {
         return cellData;
     }
 
-    public static void setCellData(int rowNumber, int cellNumber, String data) throws IOException {
+    public void setCellData(String sheetName, int rowNumber, int cellNumber, String data) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -91,7 +91,7 @@ public class ExcelUtility {
 
     }
 
-    public static void setCellColorGreen(int rowNumber, int cellNumber) throws IOException {
+    public void setCellColorGreen(String sheetName, int rowNumber, int cellNumber) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -113,7 +113,7 @@ public class ExcelUtility {
 
     }
 
-    public static void setCellColorRed(int rowNumber, int cellNumber) throws IOException {
+    public void setCellColorRed(String sheetName, int rowNumber, int cellNumber) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -135,7 +135,7 @@ public class ExcelUtility {
 
     }
 
-    public static void setCellColorYellow() throws IOException {
+    public void setCellColorYellow(String sheetName, int rowNumber, int cellNumber) throws IOException {
 
         fi = new FileInputStream(filePath);
         workbook = new XSSFWorkbook(fi);
@@ -145,6 +145,7 @@ public class ExcelUtility {
         cellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
         cellStyle.setFillForegroundColor(IndexedColors.YELLOW.getIndex());
 
+        cell = sheet.getRow(rowNumber).getCell(cellNumber);
         cell.setCellStyle(cellStyle);
 
         fo = new FileOutputStream(filePath);
