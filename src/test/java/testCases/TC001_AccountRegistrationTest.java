@@ -12,7 +12,7 @@ public class TC001_AccountRegistrationTest extends BaseTest {
 
     Lorem lorem = new LoremIpsum();
 
-    @Test
+    @Test(groups = {"sanity","master"})
     public void regWithValidData() {
 
         logger.info("*** TC001_RegistrationTest is Started ***");
