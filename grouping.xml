@@ -7,6 +7,7 @@
         <run>
 <!--            <include name="sanity"/>-->
             <include name="regression"/>
+            <include name="setup"/>
 <!--            <include name="master"/>-->
         </run>
     </groups>
