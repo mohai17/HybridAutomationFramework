@@ -6,11 +6,15 @@
     <groups>
         <run>
 <!--            <include name="sanity"/>-->
-            <include name="regression"/>
+<!--            <include name="regression"/>-->
             <include name="setup"/>
-<!--            <include name="master"/>-->
+            <include name="master"/>
         </run>
     </groups>
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
 
     <test name="Automation Test">
         <parameter name="os" value="Windows"/>

@@ -19,20 +19,6 @@ public class Base {
 
     }
 
-    public String captureScreen(String tName){
 
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-
-        TakesScreenshot screenshot = (TakesScreenshot) driver;
-        File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-
-        String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+tName+"_"+timeStamp+".png";
-        File targetFile = new File(targetFilePath);
-
-        sourceFile.renameTo(targetFile);
-
-        return targetFilePath;
-
-    }
 
 }

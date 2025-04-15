@@ -1,0 +1,52 @@
+2025-04-15 20:21:14.919 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing First Name
+2025-04-15 20:21:15.041 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Last Name
+2025-04-15 20:21:15.139 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Email
+2025-04-15 20:21:15.250 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Password
+2025-04-15 20:21:15.340 [main] INFO  testCases.TC001_AccountRegistrationTest - Password is provided
+2025-04-15 20:21:15.341 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Newsletter
+2025-04-15 20:21:15.510 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Privacy Policy
+2025-04-15 20:21:15.647 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register Button
+2025-04-15 20:21:15.721 [main] INFO  testCases.TC001_AccountRegistrationTest - Expected Message
+2025-04-15 20:21:15.754 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Finished ***
+2025-04-15 20:21:17.300 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-15 20:21:17.301 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-15 20:21:17.400 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-15 20:21:17.734 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-15 20:21:17.889 [main] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-15 20:21:17.890 [main] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-15 20:21:17.980 [main] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-15 20:21:17.980 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-15 20:21:18.051 [main] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-15 20:21:18.413 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-15 20:25:11.042 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-15 20:25:11.063 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-15 20:25:11.168 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on RegisterLink
+2025-04-15 20:25:24.521 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-15 20:25:24.522 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-15 20:25:24.626 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-15 20:25:25.011 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-15 20:25:25.165 [main] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-15 20:25:25.166 [main] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-15 20:25:25.260 [main] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-15 20:25:25.260 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-15 20:25:25.339 [main] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-15 20:25:25.697 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-15 20:26:44.965 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-15 20:26:44.985 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-15 20:26:45.109 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on RegisterLink
+2025-04-15 20:26:45.535 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing First Name
+2025-04-15 20:26:45.670 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Last Name
+2025-04-15 20:26:45.771 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Email
+2025-04-15 20:26:45.893 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Password
+2025-04-15 20:26:45.997 [main] INFO  testCases.TC001_AccountRegistrationTest - Password is provided
+2025-04-15 20:26:45.997 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Newsletter
+2025-04-15 20:26:46.153 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Privacy Policy
+2025-04-15 20:26:46.308 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register Button
+2025-04-15 20:26:46.384 [main] INFO  testCases.TC001_AccountRegistrationTest - Expected Message
+2025-04-15 20:26:46.413 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Finished ***
+2025-04-15 20:26:47.901 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-15 20:26:47.902 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-15 20:26:48.003 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-15 20:26:48.384 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-15 20:26:48.531 [main] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-15 20:26:48.531 [main] INFO  testCases.TC002_LoginTest - Providing Password
