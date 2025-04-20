@@ -1,0 +1,52 @@
+2025-04-20 13:49:29.755 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-20 13:49:29.921 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-20 13:49:30.451 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-20 13:49:32.081 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:49:32.082 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:49:32.392 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:49:32.713 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-20 13:49:32.785 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-20 13:49:32.785 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-20 13:49:32.827 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-20 13:49:32.827 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-20 13:49:33.252 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-20 13:49:33.281 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-20 13:50:47.984 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:50:48.026 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:50:48.274 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:50:49.634 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-20 13:50:49.686 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:50:49.687 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:50:51.571 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:50:51.573 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:50:51.901 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:50:52.286 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-20 13:50:52.399 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-20 13:50:52.399 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-20 13:50:52.449 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-20 13:50:52.449 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-20 13:50:52.907 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-20 13:50:52.956 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-20 13:50:59.805 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:52:21.121 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-20 13:52:21.138 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-20 13:52:21.424 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on RegisterLink
+2025-04-20 13:52:21.750 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing First Name
+2025-04-20 13:52:21.849 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Last Name
+2025-04-20 13:52:21.899 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Email
+2025-04-20 13:52:21.983 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Password
+2025-04-20 13:52:26.249 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:52:26.250 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:52:26.542 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:52:26.842 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-20 13:52:26.918 [main] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-20 13:52:26.919 [main] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-20 13:52:26.960 [main] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-20 13:52:26.961 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-20 13:52:27.372 [main] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-20 13:52:27.408 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***
+2025-04-20 13:53:20.302 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-20 13:53:20.311 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-20 13:53:20.451 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+2025-04-20 13:53:20.804 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-20 13:53:20.978 [main] INFO  testCases.TC002_LoginTest - Email is provided
