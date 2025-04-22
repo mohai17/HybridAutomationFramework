@@ -5,6 +5,7 @@ import com.thedeanda.lorem.LoremIpsum;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
+import pageObjects.MyAccountPage;
 import pageObjects.RegisterPage;
 import testBase.BaseTest;
 
@@ -41,22 +42,23 @@ public class TC001_AccountRegistrationTest extends BaseTest {
             logger.info("Click on Register Button");
             registerPage.clickOnRegisterButton();
 
-            logger.info("Expected Message");
-            String actualText = registerPage.getRegisterMessage();
-            String expectedText = "Register Account";
+            MyAccountPage myAccountPage = new MyAccountPage(driver);
+            myAccountPage.clickOnContinue();
 
-            if(actualText.equals(expectedText)){
+            boolean expectedText = myAccountPage.isMyAccountVisible();
+
+            if(expectedText){
                 Assert.assertTrue(true);
             }
             else {
                 logger.error("Test faild...");
                 logger.debug("Debug logs...");
-                Assert.fail();
+                Assert.fail("Fail");
             }
 
         }catch (Exception e){
 
-            Assert.fail();
+            Assert.fail("Fail");
         }
 
         logger.info("*** TC001_RegistrationTest is Finished ***");

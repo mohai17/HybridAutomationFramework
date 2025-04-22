@@ -52,7 +52,7 @@ public class TC003_LoginDDT extends BaseTest {
 
                 }
                 else {
-                    Assert.fail();
+                    Assert.fail("Fail");
                 }
             }
             if(expected.equalsIgnoreCase("invalid")){
@@ -60,7 +60,7 @@ public class TC003_LoginDDT extends BaseTest {
                     myAccountPage.clickOnMyAccount();
                     myAccountPage.clickOnLogout();
                     myAccountPage.clickOnContinue();
-                    Assert.fail();
+                    Assert.fail("Fail");
 
                 }
                 else {

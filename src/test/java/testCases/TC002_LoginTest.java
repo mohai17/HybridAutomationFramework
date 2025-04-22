@@ -44,11 +44,11 @@ public class TC002_LoginTest extends BaseTest {
             else {
                 logger.error("Test Failed...");
                 logger.debug("Test Debug...");
-                Assert.fail();
+                Assert.fail("Fail");
             }
 
         }catch (Exception e){
-            Assert.fail();
+            Assert.fail("Fail");
         }
 
         logger.info("*** TC002_LoingTest is Finished ***");

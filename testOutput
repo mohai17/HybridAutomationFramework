@@ -1,45 +1,68 @@
 SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-2025-04-15T14:53:17.424431100Z main INFO Starting configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z]...
-2025-04-15T14:53:17.425419Z main INFO Start watching for changes to C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml every 0 seconds
-2025-04-15T14:53:17.426409700Z main INFO Configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z] started.
-2025-04-15T14:53:17.429433200Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@cd1d761...
-2025-04-15T14:53:17.429433200Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@cd1d761 stopped.
-Apr 15, 2025 8:53:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-20:53:19.208 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
-20:53:19.235 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
-20:53:19.363 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on RegisterLink
-20:53:19.724 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing First Name
-20:53:19.846 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Last Name
-20:53:19.948 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Email
-20:53:20.061 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Password
-20:53:20.157 [main] INFO  testCases.TC001_AccountRegistrationTest - Password is provided
-20:53:20.158 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Newsletter
-20:53:20.333 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Privacy Policy
-20:53:20.463 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on Register Button
-20:53:20.537 [main] INFO  testCases.TC001_AccountRegistrationTest - Expected Message
-20:53:20.567 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Finished ***
-Apr 15, 2025 8:53:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 135
-20:53:22.195 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
-20:53:22.196 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
-20:53:22.314 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
-20:53:22.718 [main] INFO  testCases.TC002_LoginTest - Providing email
-20:53:22.871 [main] INFO  testCases.TC002_LoginTest - Email is provided
-20:53:22.872 [main] INFO  testCases.TC002_LoginTest - Providing Password
-20:53:22.968 [main] INFO  testCases.TC002_LoginTest - Password is provided
-20:53:22.969 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
-20:53:23.042 [main] INFO  testCases.TC002_LoginTest - Login button is clicked
-20:53:33.090 [main] ERROR testCases.TC002_LoginTest - Test Failed...
-20:53:33.091 [main] DEBUG testCases.TC002_LoginTest - Test Debug...
+2025-04-21T10:04:48.604760600Z main INFO Starting configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z]...
+2025-04-21T10:04:48.606728100Z main INFO Start watching for changes to C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml every 0 seconds
+2025-04-21T10:04:48.606728100Z main INFO Configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z] started.
+2025-04-21T10:04:48.609749200Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3e30646a...
+2025-04-21T10:04:48.610730300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3e30646a stopped.
+Apr 21, 2025 4:04:48 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+16:04:51.372 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+16:04:51.411 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+16:04:51.674 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on RegisterLink
+16:04:52.389 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing First Name
+16:04:52.683 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Last Name
+16:04:52.955 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Email
+16:04:53.239 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Password
+16:04:53.506 [main] INFO  testCases.TC001_AccountRegistrationTest - Password is provided
+16:04:53.506 [main] INFO  testCases.TC001_AccountRegistrationTest - Setting Newsletter
 
 java.lang.AssertionError: null
 
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC002_LoginTest.loginWithValidData(TC002_LoginTest.java:47)
+	at testCases.TC001_AccountRegistrationTest.regWithValidData(TC001_AccountRegistrationTest.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+16:05:05.667 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+16:05:05.668 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+16:05:05.941 [main] INFO  testCases.TC002_LoginTest - Click on Login Page
+16:05:07.161 [main] INFO  testCases.TC002_LoginTest - Providing email
+16:05:07.514 [main] INFO  testCases.TC002_LoginTest - Email is provided
+16:05:07.514 [main] INFO  testCases.TC002_LoginTest - Providing Password
+16:05:07.831 [main] INFO  testCases.TC002_LoginTest - Password is provided
+16:05:07.832 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
+
+java.lang.AssertionError: null
+
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC002_LoginTest.loginWithValidData(TC002_LoginTest.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -69,8 +92,8 @@ java.lang.AssertionError: null
 
 ===============================================
 All Test Suite
-Total tests run: 2, Passes: 1, Failures: 1, Skips: 0
+Total tests run: 2, Passes: 0, Failures: 2, Skips: 0
 ===============================================
 
-2025-04-15T14:53:34.354560600Z pool-1-thread-1 INFO Stopping configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z]...
-2025-04-15T14:53:34.356546Z pool-1-thread-1 INFO Configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z] stopped.
+2025-04-21T10:05:18.846454400Z pool-1-thread-1 INFO Stopping configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z]...
+2025-04-21T10:05:18.848453900Z pool-1-thread-1 INFO Configuration XmlConfiguration[location=C:\Users\mohai\IdeaProjects\AutomationFrameworks\target\test-classes\log4j2.xml, lastModified=2025-04-08T05:49:46.187Z] stopped.

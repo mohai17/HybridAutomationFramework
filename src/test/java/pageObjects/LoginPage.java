@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends Base{
@@ -20,7 +21,7 @@ public class LoginPage extends Base{
     @FindBy(xpath = "//input[@id='input-password']")
     WebElement password;
 
-    @FindBy(xpath = "//form[@id='form-login']//button[@type='submit'][text()='Login']")
+    @FindBy(xpath = "//button[normalize-space()='Login']")
     WebElement loginButton;
 
     public void setEmail(String emailAddress){
@@ -37,9 +38,11 @@ public class LoginPage extends Base{
 
     }
 
-    public void clickOnLoginButton() throws InterruptedException {
+    public void clickOnLoginButton(){
 
-        loginButton.click();
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(loginButton).click().perform();
 
     }
 

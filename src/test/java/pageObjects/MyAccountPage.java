@@ -3,7 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utilities.ExcelUtility;
+
 
 public class MyAccountPage extends Base{
     public MyAccountPage(WebDriver driver) {
@@ -11,7 +11,7 @@ public class MyAccountPage extends Base{
     }
 
 
-    @FindBy(xpath = "//h1[normalize-space()='My Account']")
+    @FindBy(xpath = "//a[normalize-space()='Account']")
     WebElement myAccountHeader;
 
     @FindBy(xpath = "//span[normalize-space()='My Account']")
@@ -23,10 +23,10 @@ public class MyAccountPage extends Base{
     @FindBy(xpath = "//a[normalize-space()='Continue']")
     WebElement continueBtn;
 
-    public boolean isMyAccountVisible(){
+    public boolean isMyAccountVisible() throws InterruptedException {
 
+        Thread.sleep(3000);
         try{
-
             return myAccountHeader.isDisplayed();
         }catch (Exception e){
             return false;

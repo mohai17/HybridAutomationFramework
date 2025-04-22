@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
@@ -16,7 +17,8 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -30,7 +32,7 @@ public class BaseTest{
 
     @BeforeClass(groups = {"setup"})
     @Parameters({"os","browser"})
-    public void setup(String os, String browser) throws IOException{
+    public void setup(String os, String browser) throws IOException, URISyntaxException {
 
         logger = LogManager.getLogger(this.getClass());
         FileReader fileReader = new FileReader("./src/test/resources/config.properties");
@@ -46,6 +48,10 @@ public class BaseTest{
                 capabilities.setPlatform(Platform.WIN11);
 
             }
+            else if(os.equalsIgnoreCase("linux"))
+            {
+                capabilities.setPlatform(Platform.LINUX);
+            }
             else if (os.equalsIgnoreCase("mac")) {
 
                 capabilities.setPlatform(Platform.MAC);
@@ -57,23 +63,25 @@ public class BaseTest{
 
             if(browser.equalsIgnoreCase("chrome")){
 
-                capabilities.setBrowserName("chrome");
+                capabilities.setBrowserName(Browser.CHROME.browserName());
 
             }
             else if(browser.equalsIgnoreCase("edge")){
 
-                capabilities.setBrowserName("MicrosoftEdge");
+                capabilities.setBrowserName(Browser.EDGE.browserName());
 
             }
             else if(browser.equalsIgnoreCase("firefox"))
             {
-                capabilities.setBrowserName("firefox");
+                capabilities.setBrowserName(Browser.FIREFOX.browserName());
             }
             else{
                 System.out.println("No browser is found.");
             }
 
-            driver = new RemoteWebDriver(new URL("http://192.168.1.101:4444/wd/hub"),capabilities);
+            URI uri = new URI("http://192.168.1.101:4444");
+
+            driver = new RemoteWebDriver(uri.toURL(),capabilities);
 
 
         }

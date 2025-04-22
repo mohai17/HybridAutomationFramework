@@ -33,8 +33,6 @@ public class RegisterPage extends Base{
     @FindBy(xpath = "//button[normalize-space()='Continue']")
     WebElement registerButton;
 
-    @FindBy(xpath = "//div[@id='content']/h1")
-    WebElement regMessage;
 
 
     public void setFirstName(String fName){
@@ -65,30 +63,29 @@ public class RegisterPage extends Base{
 
     }
 
-    public void setNewsletter(){
+    public void setNewsletter() {
 
         Actions actions = new Actions(driver);
         actions.moveToElement(newsletter).click().perform();
 
+
     }
 
-    public void setPrivacyPolicy(){
+    public void setPrivacyPolicy() {
+
 
         Actions actions = new Actions(driver);
         actions.moveToElement(privacyPolicy).click().perform();
 
     }
 
-    public void clickOnRegisterButton(){
+    public void clickOnRegisterButton() {
 
-        registerButton.click();
+        Actions actions = new Actions(driver);
+        actions.moveToElement(registerButton).click().perform();
 
     }
 
-    public String getRegisterMessage(){
-
-        return regMessage.getText();
-    }
 
 
 }
