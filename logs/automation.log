@@ -1,0 +1,14 @@
+2025-04-22 16:43:13.851 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-22 16:43:13.897 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-22 16:43:30.027 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-22 16:43:30.027 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-22 16:44:09.975 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-22 16:44:10.029 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-22 16:44:25.955 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-22 16:44:25.957 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-22 16:52:22.425 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-22 16:52:22.456 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-22 16:52:33.966 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
+2025-04-22 16:52:33.966 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
+2025-04-22 16:52:58.116 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
+2025-04-22 16:52:58.141 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
