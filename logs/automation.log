@@ -1,14 +1,7 @@
-2025-04-22 16:43:13.851 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
-2025-04-22 16:43:13.897 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
-2025-04-22 16:43:30.027 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
-2025-04-22 16:43:30.027 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
-2025-04-22 16:44:09.975 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
-2025-04-22 16:44:10.029 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
-2025-04-22 16:44:25.955 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
-2025-04-22 16:44:25.957 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
-2025-04-22 16:52:22.425 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
-2025-04-22 16:52:22.456 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
-2025-04-22 16:52:33.966 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoginTest is Started ***
-2025-04-22 16:52:33.966 [main] INFO  testCases.TC002_LoginTest - Click on My Account Page
-2025-04-22 16:52:58.116 [main] INFO  testCases.TC001_AccountRegistrationTest - *** TC001_RegistrationTest is Started ***
-2025-04-22 16:52:58.141 [main] INFO  testCases.TC001_AccountRegistrationTest - Click on My Account
+2025-04-23 14:40:05.798 [main] INFO  testCases.TC002_LoginTest - Providing email
+2025-04-23 14:40:06.058 [main] INFO  testCases.TC002_LoginTest - Email is provided
+2025-04-23 14:40:06.059 [main] INFO  testCases.TC002_LoginTest - Providing Password
+2025-04-23 14:40:06.243 [main] INFO  testCases.TC002_LoginTest - Password is provided
+2025-04-23 14:40:06.243 [main] INFO  testCases.TC002_LoginTest - Clicking on login button
+2025-04-23 14:40:06.427 [main] INFO  testCases.TC002_LoginTest - Login button is clicked
+2025-04-23 14:40:09.499 [main] INFO  testCases.TC002_LoginTest - *** TC002_LoingTest is Finished ***

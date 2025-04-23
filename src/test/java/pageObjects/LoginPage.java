@@ -21,8 +21,11 @@ public class LoginPage extends Base{
     @FindBy(xpath = "//input[@id='input-password']")
     WebElement password;
 
-    @FindBy(xpath = "//button[normalize-space()='Login']")
-    WebElement loginButton;
+//    @FindBy(xpath = "//button[normalize-space()='Login']")
+//    WebElement loginButton; //opencart-localhost
+
+    @FindBy(xpath = "//input[@value='Login']")
+    WebElement loginButton; //tutorial-ninja
 
     public void setEmail(String emailAddress){
 
